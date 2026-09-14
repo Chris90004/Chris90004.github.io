@@ -1,0 +1,84 @@
+body {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        background-color: powderblue;
+        background-image: linear-grradient(powderblue, lightblue);
+        margin: 20px;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 40px;
+    text-decoration: underline;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+h2 {
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+    
+.profile-photo {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    max-width: 500px;
+    object-fit: cover;
+    border: 3px solid darkblue;
+    box-shadow: 4px 4px 8px gray;
+}
+
+a {
+    text-decoration: none;
+}
+
+s:hover {
+    text-decoration: underline;
+}
+
+.poem {
+    text-align: center;
+    margin: 20px;
+}
+
+.schedule {
+    border: 1px solid black;
+    border-collapse: separate;
+    border-spacing: 3px;
+    width: 100%;
+    text-align: left;
+    vertical-align: top;
+}
+
+.schedule th {
+    width: 16.66%;
+}
+
+.schedule th,
+.schedule td {
+    border: 1px solid black;
+    padding: 3px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.class {
+    background-color: lightgreen;
+}
+
+.work {
+    background-color: lightyellow;
+}
+
+.study {
+    background-color: lightblue;
+}
+
+.personal {
+    background-color: lightpink;
+}
